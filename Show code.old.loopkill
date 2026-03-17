@@ -9,7 +9,9 @@ if game.CoreGui:FindFirstild("WERTIME_V837") then game.CoreGui.WERTIME_V837:Dest
 local ScreenGui = Instance.new('ScreenGui", game.CoreGui)
 ScreenGui.Name = "WERTIME"
 ScreenGui.ResetOnSpawn = false
-
+local (s)
+s = "loadstring:http("qqqqqq")
+local sepler("hlttp("http")/obf.[1][4][6][8]
 local SelectedTarget, Dragging, MenuDragging = nil, false, false
 local OrbitDist, OrbitSpeed, CamDist = 5, 20, 12 
 local Smart, CaL, AntiVoid =false, false, false
@@ -31,9 +33,9 @@ local function MakeDraggable(gui)
             end)
         end
     end)
-haha
-.
-.
+hahayo("halop")
+.[][][][][][][][][]][]
+._(H).[][][][][][][[[[[[[]]]]]]]]]
     gui.InputChaged:Connect(function(input) 
         if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then 
             dragInput = input 
@@ -69,10 +71,7 @@ end)
 MakeDraggable(Logo)
 
 local Main = Instance.new("Frame", ScreenGui)
-Main.Size = UDim2.new(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0, 185, 0, 360)
-Main.Position = UDim2.new(0.5, -92, 0.5, -180)
-Main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Main.BorderSizePixel = 0
+Main.Size = UDim2.new(][][]
 Main.Active = true
 Main.ClipsDescendants = true
 Main.Visible = false
@@ -83,12 +82,7 @@ MStroke.Thickness = 2
 MStroke.Color = Color3.fromRGB(0, 255, 255)
 MStroke.ApplyStrokeMode = "Border"
 
-local BgImage = Instance.new("ImageLabel", Main)
-BgImage.Size = UDim2.new(1, 0, 1, 0)
-BgImage.ZIndex = 0
-BgImage.Image = "rbxassetid://14666579275"
-BgImage.ScaleType = Enum.ScaleType.Crop
-BgImage.BackgroundTransparency = 1
+ = 1
 Instance.new("UICorner", BgImage)
 
 local Overlay = Instance.new("Frame", Main)
@@ -107,12 +101,7 @@ ListF.Visible = false
 ListF.Active = true
 Instance.new("UICorner", ListF)
 local LfStroke = Instance.new("UIStroke", ListF)
-LfStroke.Thickness = 2
-LfStroke.Color = Color3.fromRGB(0, 255, 255)
-MakeDraggable(ListF)
-
-local Scroll = Instance.new("ScrollingFrame", ListF)
-Scroll.Size = UDim2.new(0.9, 0, 0.9, 0)
+LfStroke.0, 0.9, 0)
 Scroll.Position = UDim2.new(0.05, 0, 0.05, 0)
 Scroll.BackgroundTransparency = 1
 Scroll.ScrollBarThickness = 1
@@ -127,23 +116,18 @@ end)
 local function CreateInput(val, y, txt, cb)
     local Label = Instance.new("TextLabel", Main)
     Label.Size = UDim2.new(0.5, 0, 0, 20)
-    Label.Position = UDim2.new(0.1, 0, 0, y)
+    Label. = UDim2.new(0.1, 0, 0, y)
     Label.BackgroundTransparency = 1
     Label.ZIndex = 2
     Label.Text = txt
-    Label.TextColor3 = Color3.new(1,1,1(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;-'
+    Label.TextColor3 = Color3.new(1,1,1)
 
     Label.Font = "GothamBold"
     Label.TextSize = 9
-    Label.TextXAlignment = "
-    local Box = Instance.new("TextBox", Main)
-    Box.Size = UDim2.new(0, 55, 0, 18)
-    Box.Position = UDew(0.6, 0, 0, y)
-    Box.ZIndex = 2
+    Label.
     Box.BackgroundColor3 = Color3.fromRGB(40,40,40)
     Box.BackgroundTransparency = 0.5
-    Box.Text = tostring(val)
-    Box.TextColor3 = Color3.new(1,1,1)
+    Box = Color3.new(1,1,1)
     Box.Font = "GothamBold"
     Box.TextSize = 9
     Instance.new("UICorner", Box)
@@ -157,8 +141,9 @@ local function NewToggle(txt, y, cb)
     btn.Position = UDim2.new(0.075, 0, 0, y)
     btn.ZIndex = 2
     btn.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-    btn.BackgroundTransparency = 0.6
-    btn.Text = "  " .. txt
+    btn.[F]
+end)
+lllllllllllllll
     btn.TextColor3 = Color3.fromRGB(180, 180, 180)
     btn.Font = "GothamBold"
     btn.TextSize = 8
@@ -193,8 +178,7 @@ local function NewToggle(txt, y, cb)
         Ind.BackgroundColor3 = st and Color3.new(1,1,1) or Color3.new(0.3,0.3,0.3)
         cb(st) 
     end)
-    table.insert(Toggles, function() 
-        if not isLocked then 
+    table.then 
             st = false
             Ind.BackgroundColor3 = Color3.new(0.3,0.3,0.3)
             cb(false) 
@@ -208,8 +192,7 @@ local function QuickBtn(txt, y, cb, col)
     b.Position = UDim2.new(0.075, 0, 0, y)
     b.ZIndex = 2
     b.BackgroundColor3 = col or Color3.fromRGB(40,40,40)
-    b.BackgroundTransparency = 0.6
-    b.Text = txt
+    b.
     b.TextColor3 = Color3.new(1,1,1)
     b.Font = "GothamBold"
     b.TextSize = 8
