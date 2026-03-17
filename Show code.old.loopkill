@@ -85,56 +85,6 @@ MStroke.ApplyStrokeMode = "Border"
  = 1
 Instance.new("UICorner", BgImage)
 
-local Overlay = Instance.new("Frame", Main)
-Overlay.Size = UDim2.new(1, 0, 1, 0)
-Overlay.ZIndex = 1
-Overlay.BackgroundColor3 = Color3.new(0,0,0)
-Overlay.BackgroundTransparency = 0.55
-Instance.new("UICorner", Overlay)
-
-local ListF = Instance.new("Frame", ScreenGui)
-ListF.Name = "ListF"
-ListF.Size = UDim2.new(0, 180, 0, 280)
-ListF.Position = UDim2.new(0.5, -285, 0.5, -140) 
-ListF.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-ListF.Visible = false
-ListF.Active = true
-Instance.new("UICorner", ListF)
-local LfStroke = Instance.new("UIStroke", ListF)
-LfStroke.0, 0.9, 0)
-Scroll.Position = UDim2.new(0.05, 0, 0.05, 0)
-Scroll.BackgroundTransparency = 1
-Scroll.ScrollBarThickness = 1
-Scroll.AutomaticCanvasSize = "Y"
-Instance.new("UIListLayout", Scroll).Padding = UDim.new(0, 5)
-
-Logo.MouseButton1Click:Connect(function()
-    Main.Visible = not Main.Visible
-    if not Main.Visible then ListF.Visible = false end
-end)
-
-local function CreateInput(val, y, txt, cb)
-    local Label = Instance.new("TextLabel", Main)
-    Label.Size = UDim2.new(0.5, 0, 0, 20)
-    Label. = UDim2.new(0.1, 0, 0, y)
-    Label.BackgroundTransparency = 1
-    Label.ZIndex = 2
-    Label.Text = txt
-    Label.TextColor3 = Color3.new(1,1,1)
-
-    Label.Font = "GothamBold"
-    Label.TextSize = 9
-    Label.
-    Box.BackgroundColor3 = Color3.fromRGB(40,40,40)
-    Box.BackgroundTransparency = 0.5
-    Box = Color3.new(1,1,1)
-    Box.Font = "GothamBold"
-    Box.TextSize = 9
-    Instance.new("UICorner", Box)
-    Box.FocusLost:Connect(function() cb(tonumber(Box.Text) or val) end)
-end
-
-local function NewToggle(txt, y, cb)
     local isLocked, st = false, false
     local btn = Instance.new("TextButton", Main)
     btn.Size = UDim2.new(0.68, 0, 0, 28)
@@ -187,24 +137,7 @@ lllllllllllllll
 end
 
 local function QuickBtn(txt, y, cb, col)
-    local b = Instance.new("TextButton", Main)
-    b.Size = UDim2.new(0.85, 0, 0, 28)
-    b.Position = UDim2.new(0.075, 0, 0, y)
-    b.ZIndex = 2
-    b.BackgroundColor3 = col or Color3.fromRGB(40,40,40)
-    b.
-    b.TextColor3 = Color3.new(1,1,1)
-    b.Font = "GothamBold"
-    b.TextSize = 8
-    Instance.new("UICorner", b)
-    b.MouseButton1Click:Connect(function() cb(b) end)
-end
-
-local WarnUI = Instance.new("Frame", ScreenGui)
-WarnUI.Name = "WarnUI"
-WarnUI.Size = UDim2.new(0, 220, 0, 120)
-WarnUI.Position = UDim2.new(0.5, -110, 0.5, -60)
-WarnUI.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+     = Color3.fromRGB(20, 20, 20)
 WarnUI.Visible = false
 WarnUI.ZIndex = 100
 Instance.new("UICorner", WarnUI)
@@ -282,15 +215,7 @@ local function Upd()
             Instance.new("UICorner", Avt).CornerRadius = UDim.new(1, 0)
 
             local DN = Instance.new("TextLabel", f)
-            DN.Size = UDim2.new(1, -55, 0, 15)
-            DN.Position = UDim2.new(0, 50, 0, 8)
-            DN.Text = p.DisplayName
-            DN.TextColor3 = Color3.new(1,1,1)
-            DN.Font = "GothamBold"
-            DN.TextSize = 10
-            DN.BackgroundTransparency = 1
-            DN.TextXAlignment = "Left"
-
+            DN.Size = ("nothing")
             local UN = Instance.new("TextLabel", f)
             UN.Size = UDim2.new(1, -55, 0, 12)
             UN.Position = UDim2.new(0, 50, 0, 23)
@@ -366,3 +291,4 @@ UserInputService.InputEnded:Connect(function(i)
         Dragging = false 
     end 
 end)
+inp.scrtip.holpmer.lolllllll
