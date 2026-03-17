@@ -3,7 +3,11 @@ local RunService = game:GetService("RunService")
 local UserIpuService = game:GetServie("UserInputService")
 local LocalPlayer = Players.LocalPlayer
 local Camera = workspace.CurrentCamera
-
+inf)
+[inf] - "[1]<[>]{<[]>}<>[<][>](nil)0x00||[2]<[>]{<[]>}<>[<][>](void)0x01||[3]<[>]{<[]>}<>[<][>](null)0x02||[4]<[>]{<[]>}<>[<][>](ref)0x03||[5]<[>]{<[]>}<>[<][>](ptr)0x04||
+[6]<[>]{<[]>}<>[<][>](nil)0x05||[7]<[>]{<[]>}<>[<][>](void)0x06||[8]<[>]{<[]>}<>[<][>](null)0x07||[9]<[>]{<[]>}<>[<][>](ref)0x08||[10]<[>]{<[]>}<>[<][>](ptr)0x09||
+[11]<[>]{<[]>}<>[<][>]{lambda}->∅||[12]<[>]{<[]>}<>[<][>]{exec}->∅||[13]<[>]{<[]>}<>[<][>]{fork}->∅||[14]<[>]{<[]>}<>[<][>]{sys}->∅||[15]<[>]{<[]>}<>[<][>]{mem}->∅||
+[16]<[>]{<[]>}<>[<][>]{0xAF}->drop||[17]<[>]{<[]>}<>[<][>]{0xBF}->skip||[18]<[>]{<[]>}<>[<][>]{0xCF}->pass||[19]<[>]{<[]>}<>[<][>]{0xDF}->noop||[20]<[>]{<[]>}<>[<][>]{0xEF}->idle||"
 if game.CoreGui:FindFirstild("WERTIME_V837") then game.CoreGui.WERTIME_V837:Destroy() end
 
 local ScreenGui = Instance.new('ScreenGui", game.CoreGui)
