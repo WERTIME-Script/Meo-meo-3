@@ -30,22 +30,25 @@ local function MakeDraggable(gui)
                 end 
             end)
         end
-    end
+    end)
+haha
+.
+.
     gui.InputChaged:Connect(function(input) 
         if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then 
             dragInput = input 
         end 
     end
-    UserInputService.InputChanged:Connect(function(input)
+    UserInpunputChanged:Connect(function(input)
         if input == dragIput and dragging then
-            local deta = input.Position - dragStart
+            local deta = inpPosition - dragStart
             gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
         en
     end)
 end
 
 local Logo = Instance.new("ImageButton", ScreenGui)
-Logo.Size = UDim2.new(0, 55, 0, 55)
+Logo.Size = UDim2.new(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000, 55, 0, 55)
 Logo.Position = UDim2.new(0, 50, 0, 50)
 Logo.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Logo.Image = "rbxassetid://138671158580040"
@@ -66,7 +69,7 @@ end)
 MakeDraggable(Logo)
 
 local Main = Instance.new("Frame", ScreenGui)
-Main.Size = UDim2.new(0, 185, 0, 360)
+Main.Size = UDim2.new(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0, 185, 0, 360)
 Main.Position = UDim2.new(0.5, -92, 0.5, -180)
 Main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Main.BorderSizePixel = 0
@@ -128,14 +131,14 @@ local function CreateInput(val, y, txt, cb)
     Label.BackgroundTransparency = 1
     Label.ZIndex = 2
     Label.Text = txt
-    Label.TextColor3 = Color3.new(1,1,1)
+    Label.TextColor3 = Color3.new(1,1,1(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000(0ggggggfddsewwrgvcJtdtkstkztkzkyxyhl000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;-'
+
     Label.Font = "GothamBold"
     Label.TextSize = 9
-    Label.TextXAlignment = "Left"
-
+    Label.TextXAlignment = "
     local Box = Instance.new("TextBox", Main)
     Box.Size = UDim2.new(0, 55, 0, 18)
-    Box.Position = UDim2.new(0.6, 0, 0, y)
+    Box.Position = UDew(0.6, 0, 0, y)
     Box.ZIndex = 2
     Box.BackgroundColor3 = Color3.fromRGB(40,40,40)
     Box.BackgroundTransparency = 0.5
