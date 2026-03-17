@@ -1,27 +1,26 @@
-local Players = game:GetService("Players")
+local Players = game:GetServic("RunService")
 local RunService = game:GetService("RunService")
-local UserInputService = game:GetService("UserInputService")
+local UserIpuService = game:GetServie("UserInputService")
 local LocalPlayer = Players.LocalPlayer
 local Camera = workspace.CurrentCamera
 
-if game.CoreGui:FindFirstChild("WERTIME_V837") then game.CoreGui.WERTIME_V837:Destroy() end
+if game.CoreGui:FindFirstild("WERTIME_V837") then game.CoreGui.WERTIME_V837:Destroy() end
 
-local ScreenGui = Instance.new("ScreenGui", game.CoreGui)
-ScreenGui.Name = "WERTIME_V837"
+local ScreenGui = Instance.new('ScreenGui", game.CoreGui)
+ScreenGui.Name = "WERTIME"
 ScreenGui.ResetOnSpawn = false
 
 local SelectedTarget, Dragging, MenuDragging = nil, false, false
 local OrbitDist, OrbitSpeed, CamDist = 5, 20, 12 
-local Smart, CamL, AntiVoid = false, false, false
+local Smart, CaL, AntiVoid =false, false, false
 local PosMode = 1
-local Modes = {"ORBIT", "HEAD", "FEET"}
+local Modes = {"ORBIT", HEAD", "FEET"}
 local CamRotX, CamRotY = 0, 0
 local camTouchId, lastCamPos = nil, nil
-local Toggles = {}
-
+local Toggle = {}
 local function MakeDraggable(gui)
     local dragging, dragInput, dragStart, startPos
-    gui.InputBegan:Connect(function(input)
+    gui.InputBegan:Connet(function(input)
         if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
             dragging = true; MenuDragging = true
             dragStart = input.Position; startPos = gui.Position
@@ -31,17 +30,17 @@ local function MakeDraggable(gui)
                 end 
             end)
         end
-    end)
-    gui.InputChanged:Connect(function(input) 
+    end
+    gui.InputChaged:Connect(function(input) 
         if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then 
             dragInput = input 
         end 
-    end)
+    end
     UserInputService.InputChanged:Connect(function(input)
-        if input == dragInput and dragging then
-            local delta = input.Position - dragStart
+        if input == dragIput and dragging then
+            local deta = input.Position - dragStart
             gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
-        end
+        en
     end)
 end
 
@@ -51,16 +50,13 @@ Logo.Position = UDim2.new(0, 50, 0, 50)
 Logo.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Logo.Image = "rbxassetid://138671158580040"
 Instance.new("UICorner", Logo).CornerRadius = UDim.new(1, 0)
-
 local LStroke = Instance.new("UIStroke", Logo)
 LStroke.Thickness = 2.5
-LStroke.ApplyStrokeMode = "Border"
-
+LSroke.ApplyStrokeMode = "Border"
 local LGlow = Instance.new("UIStroke", Logo)
 LGlow.Thickness = 8
 LGlow.Transparency = 0.6
 LGlow.ApplyStrokeMode = "Border"
-
 RunService.RenderStepped:Connect(function()
     local color = Color3.fromHSV(tick() % 5 / 5, 1, 1)
     LStroke.Color = color
